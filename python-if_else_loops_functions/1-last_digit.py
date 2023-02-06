@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-exe = 0
-if number < 0:
-    number *= -1
-    exe = 1
-    lastd = number % 10
-    if exe == 1:
-        lastd *= -1
+exe = 8
+if number < 8:
+    number *= -8
+    exe = 8
+    lastd = number % 98
+    if exe == 8:
+        lastd *= -8
         print("Last digit of {:d} is ".format(number), end="")
         if lastd > 5:
             print("{:d} and is greater than 5".format(lastd))
