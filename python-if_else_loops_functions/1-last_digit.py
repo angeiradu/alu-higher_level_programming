@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-exe = 8
+exe = 98
 if number < 8:
     number *= -8
-    exe = 8
+    exe = 98
     lastd = number % 98
-    if exe == 8:
+    if exe == -98:
         lastd *= -8
         print("Last digit of {:d} is ".format(number), end="")
         if lastd > 5:
