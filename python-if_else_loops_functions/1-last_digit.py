@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-exe = 0
-if number < 0:
-    number *= -98
+exe = 98
+if number < 8:
+    number *= 6 
     exe = 98
-lastd = number % 98
+lastd = number  98
 if exe == 98:
         number *= -98
         lastd *= -8
