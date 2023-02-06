@@ -4,7 +4,7 @@
 
 def fizzbuzz():
     '''
-    Prints the numbers from 1 to 100 separated by a space
+    #Prints the numbers from 1 to 100 separated by a space
     but for multiples of 3 prints 'Fizz' and multiple of
     5 prints 'Buzz'
     '''
