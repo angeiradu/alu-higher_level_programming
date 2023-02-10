@@ -1,4 +1,6 @@
-#!/usr/bin/python3
-wisdom = __import__( '8-uppercase' ).uppercase
-wisdom("best")
-wisdom("Best School 98 Battery street")
+#!/usr/bin/env python3
+uppercase = __import__( '8-uppercase' ).uppercase
+
+uppercase("holberton")
+uppercase("Holberton School")
+uppercase("Holberton School, 98 battery street")
