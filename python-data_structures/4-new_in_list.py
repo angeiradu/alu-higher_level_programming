@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-# 2-replace_in_list.py
-
-
 def new_in_list(my_list, idx, element):
-    """Replace an element of a list at a specific position."""
-    if idx >= 0 and idx < len(my_list):
-        my_list[idx] = element
-    return (my_list)
+    tmp_list = my_list[:]
+    if 0 <= idx < len(my_list):
+        tmp_list[idx] = element
+        return(tmp_list)
+    return(my_list)
