@@ -1,7 +1,7 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 """Define a clss square."""
 
 
-class Square:
+class Square(object):
     """Represent a square."""
     pass
