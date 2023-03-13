@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # 1-square.py
 """Private instance attribute."""
 
