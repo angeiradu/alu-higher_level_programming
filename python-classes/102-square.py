@@ -12,7 +12,7 @@ class Square:
         """
         self.size = size
 
-        @property
+    @property
     def size(self):
         """Get/set the current size of the square."""
         return (self.__size)
@@ -25,13 +25,14 @@ class Square:
             raise ValueError("size must be >= 0")
         self.__size = value
 
-        def area(self):
+    def area(self):
         """Return the current area of the square."""
         return (self.__size * self.__size)
 
     def __eq__(self, other):
         """Define the == comparision to a Square."""
         return self.area() == other.area()
+
     def __ne__(self, other):
         """Define the != comparison to a Square."""
         return self.area() != other.area()
