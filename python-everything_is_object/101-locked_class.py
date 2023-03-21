@@ -3,7 +3,6 @@
 
 
 class LockedClass:
-    
     """ prevent the user to create new instance attributes 
     except if the new instance attributes is 'first_name'.
     """
