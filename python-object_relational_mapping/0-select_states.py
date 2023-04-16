@@ -4,17 +4,14 @@ import MySQLdb
 
 args=sys.argv
 
-username=args[1]
-password=args[2]
-database=args[3]
 
 # Connect to the database
 db=MySQLdb.connect(
         host='localhost',
         port=3306,
-        user=username,
-        passwd=password,
-        db=database
+        username=args[1],
+        password=args[2],
+        database=args[3]
         )
 
 # Create a cursor for executing queries
