@@ -1,35 +1,37 @@
 #!/usr/bin/python3
-# import module
+# import the MySQLdb module
 import MySQLdb
+# takes 3 arguments
 from sys import argv
 
-# arguments
 username = argv[1]
 password = argv[2]
 database = argv[3]
 
-# connect to database
+# connect to the MySQL server
 db = MySQLdb.connect(
     host="localhost",
     port=3306,
     user=username,
     passwd=password,
     db=database
-    )
+)
 
-# create cursor
-cursor = db.cursor()
+# create a cursor object
+cur = db.cursor()
 
-# execute query
-cursor.execute("SELECT * FROM states WHERE name LIKE 'N%' ORDER BY states.id ASC")
+# execute a query
+cur.execute("SELECT * FROM states WHERE name LIKE 'N%' ORDER BY states.id ASC")
 
 # fetch all rows
-rows = cursor.fetchall()
+rows = cur.fetchall()
 
-# loop through rows
+# print rows
 for row in rows:
     print(row)
 
-# close connection
-cursor.close()
+# close the cursor
+cur.close()
+
+# close the connection
 db.close()
