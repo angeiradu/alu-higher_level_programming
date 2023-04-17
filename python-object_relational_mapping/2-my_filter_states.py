@@ -15,9 +15,7 @@ if __name__ == '__main__':
         passwd=sys.argv[2],
         db=sys.argv[3],
         host='localhost',
-        port=3306
-    )
-
+        port=3306)
     cur = db.cursor()
     cur.execute(
             "SELECT * FROM states WHERE name LIKE"
@@ -26,6 +24,5 @@ if __name__ == '__main__':
     for row in rows:       
         if row == sys.argv[4]:
             print(row)
-
     cur.close()
     db.close()
