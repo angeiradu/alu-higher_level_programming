@@ -13,8 +13,10 @@ if __name__ == "__main__":
             user=sys.argv[1],
             passwd=sys.argv[2],
             db=sys.argv[3])
-     # Create a cursor
+
+    # Create a cursor
     cursor = db.cursor()
+
     # EXECUTE A SQL Query
     cursor.execute("SELECT * FROM states WHERE name=%s", (sys.argv[4], ))
     
