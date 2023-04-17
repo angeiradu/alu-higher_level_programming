@@ -19,7 +19,6 @@ if __name__ == "__main__":
 
     # EXECUTE A SQL Query
     cursor.execute("SELECT * FROM states WHERE name=%s", (sys.argv[4], ))
-    
     # Fetch the result of query
     query_rows = cursor.fetchall()
 
