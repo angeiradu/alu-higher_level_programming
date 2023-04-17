@@ -27,5 +27,5 @@ if __name__ == "__main__":
             print(row)
 
     # Close cursor
-    cur.close()
-    conn.close()
+    cursor.close()
+    db.close()
