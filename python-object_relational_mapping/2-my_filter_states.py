@@ -9,6 +9,10 @@ if __name__ == '__main__':
 
     import sys
     import MySQLdb
+    sys.argv = [1, 2, 3, 4]
+
+for i in range(len(sys.argv)):
+    print(sys.argv[i])
 
     db = MySQLdb.connect(
         user=sys.argv[1],
