@@ -16,12 +16,12 @@ if __name__ == '__main__':
         db=sys.argv[3],
         host='localhost',
         port=3306,
-        state_name=sys.argv[4]
+        stn=sys.argv[4]
     )
 
     cur = db.cursor()
     cur.execute(
-            "SELECT * FROM states WHERE name='{}'ORDER BY id ASC".format(state_name))
+            "SELECT * FROM states WHERE name='{}'ORDER BY id ASC".format(stn))
     rows = cur.fetchall()
     for row in rows:
         print(row)
