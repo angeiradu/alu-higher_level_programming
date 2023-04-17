@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 """
 script that lists all states
-from the database hbtn_0e_0_usa
+with the name starting with N in
+database hbtn_0e_0_usa
 """
 
 if __name__ == '__main__':
