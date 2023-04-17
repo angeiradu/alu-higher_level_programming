@@ -12,7 +12,7 @@ if __name__ == "__main__":
                            db=sys.argv[3],
                            charset="utf8")
     # Start cursor
-    cur = db.cursor()
+    cursor = db.cursor()
     # Query
     cursor.execute("SELECT cities.id, cities.name, states.name\
                 FROM cities, states WHERE cities.state_id = states.id\
