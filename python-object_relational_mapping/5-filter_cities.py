@@ -13,7 +13,7 @@ if __name__ == "__main__":
             db=sys.argv[3])
                            
     # Create a cursor
-    cursor = conn.cursor()
+    cursor = db.cursor()
     # Execute SQL Query
     cursor.execute("SELECT cities.name FROM cities\
         JOIN states ON cities.state_id = states.id\
