@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 def matrix_divided(matrix, div):
-    if type(matrix) is not list or not all(type(row) is list for row in matrix):
-        raise TypeError('matrix must be a matrix (list of lists) of integers/floats')
+    if type(matrix) is not list or not all(
+            type(row) is list for row in matrix):
+        raise TypeError('matrix must be a matrix
+                (list of lists) of integers/floats')
     if div == 0:
         raise ZeroDivisionError('division by zero')
     if type(div) not in [int, float]:
