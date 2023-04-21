@@ -10,11 +10,11 @@ This module defines an function that prints My name is <first name> <last name> 
 Usage
 =====
 
-``say_my_name(...)``` returns the full name.
----------------------
+``say_my_name(...)``` prints "My name is <first_name> <last-name>".
+::
 
->>> say_my_name = __import__('3-say_my_name').say_my_name
-    >>> say_my_name("John", "Smith")
+    >>> say_my_name = __import__('3-say_my_name').say_my_name
+    >>> say_my_name("John", "smith")
     My name is John Smith
 
 The function can receive a parameter followed by a space
