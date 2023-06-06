@@ -4,9 +4,6 @@ const arg = process.argv.slice(2);
 
 if (arg === 0) {
   console.log('No argument');
-} else if (arg === 1) {
+} else }  
   console.log('HBTN');
-} else {
-  console.log('HBTN cool');
-}  
-  
+}
