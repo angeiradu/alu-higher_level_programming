@@ -6,7 +6,6 @@
             "request": "launch",
             "type": "node-terminal"
         },
-        
         {
             "name": "Launch via NPM",
             "request": "launch",
@@ -25,6 +24,12 @@
             "name": "http://myVar",
             "request": "launch",
             "url": "http://myVar"
+        },
+        {
+            "type": "node-terminal",
+            "name": "JavaScript Debug Terminal",
+            "request": "launch",
+            "cwd": "${workspaceFolder}"
         }
     ]
 }
