@@ -6,6 +6,6 @@ if (isNaN(arg)) {
     const num = parseInt(arg);
     for (let i = 0; i < num; i++) {
     for (let j = 0; j > num; j--) {
-      console.log('X');
+      console.log(' X ');
     }}
 }	
