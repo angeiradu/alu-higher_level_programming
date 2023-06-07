@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "name": "Launch via NPM",
+            "request": "launch",
+            "runtimeArgs": [
+                "run-script",
+                "debug"
+            ],
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "type": "chrome",
+            "name": "http://myVar",
+            "request": "launch",
+            "url": "http://myVar"
+        },
+        {
+            "type": "node-terminal",
+            "name": "JavaScript Debug Terminal",
+            "request": "launch",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
