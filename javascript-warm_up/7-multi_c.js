@@ -5,7 +5,7 @@ if (isNaN(arg)) {
 } else {
   const x = parseInt(arg);
   let count = 0;
-  while(count < x) {
+  while (count < x) {
     console.log('C is fun');
     count++;
   }
