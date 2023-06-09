@@ -6,7 +6,7 @@ class Rectangle {
       this.height = h;
   }
   
-  print() {
+  print () {
     for (let i = 0; i < this.height; i++) {
       let myVar = '';
       let y = 0;
@@ -18,14 +18,14 @@ class Rectangle {
     }
   }
 
-  rotate() {
+  rotate () {
     let temp = 0;
     temp = this.width;
     this.width = this.height;
     this.height = temp;
   }
 
-  double() {
+  double () {
     width *= 2;
     height *= 2;
   }
