@@ -1,10 +1,8 @@
 #!/usr/bin/node
-
 class Rectangle {
-  constructor (w, h) {
-    this.width = w;
-    this.height = h;
+  constructor() {
+    // Add any initialization logic here
   }
+  
+  // Add methods and properties here
 }
-const rectangle = new Rectangle(10, 20);
-console.log(rectangle);
