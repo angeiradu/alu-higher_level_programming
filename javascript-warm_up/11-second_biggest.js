@@ -17,4 +17,4 @@ function second (myArray) {
   return (secondbiggest);
 }
 
-console.log(second(process.argv));	
+console.log(second(process.argv));
