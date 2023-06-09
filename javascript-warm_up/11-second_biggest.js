@@ -7,7 +7,7 @@ function second (myArray) {
   let secondbiggest = myArray[3];
 
   for (let i = 2; i < myArray.length; i++) {
-    if (myArray[i] > max) {
+    if (myArray[i] > biggest) {
       secondbiggest = biggest;
       biggest = myArray[i];
     } else if (myArray[i] > secondbiggest && myArray[i] < biggest) {
@@ -17,4 +17,4 @@ function second (myArray) {
   return (secondbiggest);
 }
 
-console.log(second(process.argv));	
+console.log(second(process.argv));
