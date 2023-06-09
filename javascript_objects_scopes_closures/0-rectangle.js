@@ -1,6 +1,6 @@
 #!/usr/bin/node
 class Rectangle {
-  constructor() {
+  destructor() {
     // Add any initialization logic here
   }
   
