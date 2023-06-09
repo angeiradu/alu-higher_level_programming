@@ -6,5 +6,5 @@ class Rectangle {
     this.height = h;
   }
 }
-
-module.exports = Rectangle;
+const rectangle = new Rectangle(10, 20);
+console.log(rectangle);
