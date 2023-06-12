@@ -30,4 +30,8 @@ class Rectangle {
     width *= 2;
     height *= 2;
   }
+<<<<<<< HEAD
+=======
+ }
+>>>>>>> ed99eae42a61b1d7f76e82e7570c7fc0efea0252
   module.exports = Rectangle;
