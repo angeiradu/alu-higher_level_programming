@@ -30,13 +30,4 @@ class Rectangle {
     this.width *= 2;
     this.height *= 2;
   }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
  }
->>>>>>> ed99eae42a61b1d7f76e82e7570c7fc0efea0252
-  module.exports = Rectangle;
-=======
-}
-module.exports = Rectangle;
->>>>>>> 0bd19ffe0dd5bc34d3cf9720b37d79f000f3100c
