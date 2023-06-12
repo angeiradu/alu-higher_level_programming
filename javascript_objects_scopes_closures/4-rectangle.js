@@ -4,6 +4,7 @@ class Rectangle {
     if (Number.isInteger(w) && w > 0 && Number.isInteger(h) && h > 0) {
       this.width = w;
       this.height = h;
+    }
   }
   
   print() {
@@ -29,4 +30,4 @@ class Rectangle {
     width *= 2;
     height *= 2;
   }
-  module.exports = Rectangle;	  
+  module.exports = Rectangle;
