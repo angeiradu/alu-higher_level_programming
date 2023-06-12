@@ -7,7 +7,7 @@ class Rectangle {
     }
   }
   
-print () {
+  print () {
     for (let i = 0; i < this.height; i++) {
       let myVar = '';
       let y = 0;
