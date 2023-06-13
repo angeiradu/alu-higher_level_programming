@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const PrevSquare = require('./5-square.js');
-class Square extends PrevSquare{
-	charPrint (c) {
+class Square extends PrevSquare {
+  charPrint (c) {
     const myChar = c === undefined ? 'X' : c;
     for (let i = 0; i < this.height; i++) {
       let myVar = '';
